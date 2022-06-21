@@ -1,3 +1,4 @@
+#comment
 
 def service_func():
     print("Hi, I'm sevice func that you call everywhere")
@@ -11,5 +12,9 @@ def test_less(input: int):
     assert input < 2
 
 def main():
-    test_less(3)
+    test_less(1)
     test_more(3)
+    print("ok")
+
+if __name__ == "__main__":
+    main()
