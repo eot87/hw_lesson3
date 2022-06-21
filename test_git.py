@@ -4,6 +4,7 @@
 def service_func():
     print("Hi, I'm sevice func that you call everywhere")
 
+#comment2
 def test_more(input: int):
     service_func()
     assert input > 2
